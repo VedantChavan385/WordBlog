@@ -1,3 +1,5 @@
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true
@@ -60,5 +62,3 @@ swiperAnimation();
 page4Animation();
 menuAnimation();
 loaderAnimation();
-
-document.getElementById("year").innerHTML = new Date().getFullYear();
