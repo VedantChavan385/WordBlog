@@ -41,6 +41,11 @@ html, body {
     padding: 0 2vw;
 }
 
+#logo{
+    height: 10vh;
+    transition: all ease 0.2s;
+}
+
 nav {
     padding: 2vw 0vw;
     width: 100%;
